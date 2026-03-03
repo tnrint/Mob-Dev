@@ -13,11 +13,16 @@
         </VerticalStackLayout>
 
         <ListView x:Name="todoLV" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" HasUnevenRows="True"
-                  SeparatorVisibility="Default" BackgroundColor="White" ItemSelected="TodoLV_OnItemSelected"
-                  ItemTapped="todoLV_ItemTapped">
+                  SeparatorVisibility="Default" BackgroundColor="White" ItemSelected="TodoLV_OnItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <!-- Context menu for Edit/Delete -->
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Edit" Clicked="EditMenu_Clicked" />
+                            <MenuItem Text="Delete" Clicked="DeleteMenu_Clicked" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+
                         <Grid VerticalOptions="FillAndExpand" RowSpacing="5" HorizontalOptions="FillAndExpand" Margin="10,0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -32,7 +37,8 @@
                                    Text="{Binding title}" VerticalOptions="Center" HorizontalOptions="Start" TextColor="Black"/>
                             <Label Grid.Row="1" Grid.Column="0" LineBreakMode="TailTruncation" FontSize="14"
                                    Text="{Binding detail}" VerticalOptions="Center" HorizontalOptions="Start" TextColor="Black"/>
-                            <Button ImageSource="trash" BackgroundColor="Transparent" ClassId="{Binding id}" 
+                            <!-- Use BindingContext to locate the item in code-behind -->
+                            <Button ImageSource="trash" BackgroundColor="Transparent" 
                                     Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Clicked="DeleteToDoItem"/>
                         </Grid>
                     </ViewCell>

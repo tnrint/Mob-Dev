@@ -1,4 +1,5 @@
 ﻿namespace ToDoMaui_Listview;
+using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 
@@ -55,7 +56,7 @@ public partial class MainPage : ContentPage
         cancelBtn.IsVisible = true;
     }
 
-    // EDIT
+    // EDIT (save changes from editor to selected item)
     private void EditToDoItem(object sender, EventArgs e)
     {
         if (selectedItem == null)
@@ -82,25 +83,77 @@ public partial class MainPage : ContentPage
         todoLV.SelectedItem = null;
     }
 
-    // DELETE
-    private void DeleteToDoItem(object sender, EventArgs e)
+    // DELETE - prefer BindingContext of Button or MenuItem, ask for confirmation
+    private async void DeleteToDoItem(object sender, EventArgs e)
     {
-        Button btn = sender as Button;
-        int id = Convert.ToInt32(btn.ClassId);
+        ToDoClass item = null;
 
-        var itemToRemove = todoList.FirstOrDefault(x => x.id == id);
+        // Button inside the ViewCell uses its BindingContext
+        if (sender is Button btn && btn.BindingContext is ToDoClass btnItem)
+        {
+            item = btnItem;
+        }
+        // Context menu (MenuItem)
+        else if (sender is MenuItem menu && menu.BindingContext is ToDoClass menuItem)
+        {
+            item = menuItem;
+        }
+        // Fallback: try to parse ClassId (not used in updated XAML but kept safe)
+        else if (sender is Button btn2 && int.TryParse(btn2.ClassId, out int id))
+        {
+            item = todoList.FirstOrDefault(x => x.id == id);
+        }
 
-        if (itemToRemove != null)
-            todoList.Remove(itemToRemove);
+        if (item == null)
+            return;
+
+        bool confirm = await DisplayAlert("Delete", "Delete this item?", "Delete", "Cancel");
+        if (!confirm)
+            return;
+
+        todoList.Remove(item);
+
+        if (selectedItem != null && selectedItem.id == item.id)
+        {
+            CancelEdit(null, null);
+        }
     }
 
-    // Tapped
+    // optional: context-menu Edit handler
+    private void EditMenu_Clicked(object sender, EventArgs e)
+    {
+        if (sender is MenuItem menu && menu.BindingContext is ToDoClass item)
+        {
+            selectedItem = item;
+            titleEntry.Text = item.title;
+            detailsEditor.Text = item.detail;
+
+            addBtn.IsVisible = false;
+            editBtn.IsVisible = true;
+            cancelBtn.IsVisible = true;
+        }
+    }
+
+    // explicit context-menu delete (kept for clarity)
+    private async void DeleteMenu_Clicked(object sender, EventArgs e)
+    {
+        if (sender is MenuItem menu && menu.BindingContext is ToDoClass item)
+        {
+            bool confirm = await DisplayAlert("Delete", "Delete this item?", "Delete", "Cancel");
+            if (confirm)
+            {
+                todoList.Remove(item);
+                if (selectedItem != null && selectedItem.id == item.id)
+                {
+                    CancelEdit(null, null);
+                }
+            }
+        }
+    }
+
+    // preserved (unused) tapped handler - no longer wired in XAML
     private void todoLV_ItemTapped(object sender, ItemTappedEventArgs e)
     {
-        // You can add your logic here, for example:
-        // Deselect the item after tap
-        ((ListView)sender).SelectedItem = null;
-        // Optionally handle the tapped item
-        // var tappedItem = e.Item;
+        // kept for reference; do not clear selection here so ItemSelected can be used for edit.
     }
 }
