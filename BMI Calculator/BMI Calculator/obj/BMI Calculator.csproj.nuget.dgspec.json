@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenji Tundag\\source\\repos\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj": {}
+    "D:\\MobDev\\Mob-Dev\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenji Tundag\\source\\repos\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj": {
+    "D:\\MobDev\\Mob-Dev\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenji Tundag\\source\\repos\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj",
+        "projectUniqueName": "D:\\MobDev\\Mob-Dev\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj",
         "projectName": "BMI Calculator",
-        "projectPath": "C:\\Users\\Kenji Tundag\\source\\repos\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj",
+        "projectPath": "D:\\MobDev\\Mob-Dev\\BMI Calculator\\BMI Calculator\\BMI Calculator.csproj",
         "packagesPath": "C:\\Users\\Kenji Tundag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenji Tundag\\source\\repos\\BMI Calculator\\BMI Calculator\\obj\\",
+        "outputPath": "D:\\MobDev\\Mob-Dev\\BMI Calculator\\BMI Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

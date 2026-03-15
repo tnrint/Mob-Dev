@@ -1,0 +1,16 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TodoApp.Views.CompletedPage">
+
+    <VerticalStackLayout>
+
+        <Label Text="Completed Tasks"
+               FontSize="25"
+               HorizontalOptions="Center"/>
+
+        <ListView x:Name="completedList"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|d:\\mobdev\\mob-dev\\todomaui_listview\\todomaui_listview\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|solutionrelative:todomaui_listview\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDoMaui_Listview\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|d:\\mobdev\\mob-dev\\todomaui_listview\\todomaui_listview\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|solutionrelative:todomaui_listview\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\ToDoClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDoMaui_Listview\\ToDoClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|d:\\mobdev\\mob-dev\\todomaui_listview\\todomaui_listview\\todoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653A7DD8-CBB1-4A73-97CD-4FE7272FE65B}|ToDoMaui_Listview\\ToDoMaui_Listview.csproj|solutionrelative:todomaui_listview\\todoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDoMaui_Listview\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ToDoClass.cs",
               "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\ToDoClass.cs",
               "RelativeDocumentMoniker": "ToDoMaui_Listview\\ToDoClass.cs",
@@ -42,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "ToDoMaui_Listview\\MainPage.xaml.cs",
@@ -50,8 +46,7 @@
               "RelativeToolTip": "ToDoMaui_Listview\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T18:00:16.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T18:00:16.471Z"
             },
             {
               "$type": "Document",
@@ -61,10 +56,14 @@
               "RelativeDocumentMoniker": "ToDoMaui_Listview\\MainPage.xaml",
               "ToolTip": "D:\\MobDev\\Mob-Dev\\ToDoMaui_Listview\\ToDoMaui_Listview\\MainPage.xaml",
               "RelativeToolTip": "ToDoMaui_Listview\\MainPage.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwCkAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-01T18:00:12.816Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoMaui_Listview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3358b7b96099efbea38725a431fb49d1d748aa4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+54eaa8ac71594fc652a7ebfe43ee36084e79e3da")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoMaui_Listview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoMaui_Listview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,35 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TodoApp.Views.TodoPage">
+
+    <VerticalStackLayout>
+
+        <Button Text="Add Task"
+                Clicked="AddTask_Clicked"/>
+
+        <ListView x:Name="todoList">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <StackLayout Padding="10">
+
+                            <Label Text="{Binding item_name}"
+                                   FontAttributes="Bold"/>
+
+                            <Label Text="{Binding item_description}"
+                                   FontSize="12"/>
+
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

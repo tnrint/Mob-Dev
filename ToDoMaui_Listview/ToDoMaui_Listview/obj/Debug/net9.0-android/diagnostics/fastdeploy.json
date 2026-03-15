@@ -1,0 +1,18 @@
+{
+  "Task": "FastDeploy",
+  "Properties": {
+    "target.prop.ro.product.build.version.sdk": "35",
+    "target.prop.ro.product.cpu.abilist": "x86_64;arm64-v8a",
+    "target.prop.ro.product.manufacturer": "Google",
+    "target.prop.ro.product.model": "sdk_gphone64_x86_64",
+    "target.prop.ro.product.cpu.abi": "x86_64",
+    "deploy.error.code": "ADB1000",
+    "deploy.tool": "xamarin.sync",
+    "deploy.result": "Failed",
+    "deploy.supports.fastdev": "True",
+    "deploy.systemapp": "False",
+    "deploy.duration.ms": "34268",
+    "pii.deploy.error": "System.AggregateException: One or more errors occurred. ---\u003E Mono.AndroidTools.AdbException: closed\r\n   at Mono.AndroidTools.Util.AggregateAsyncResult.CheckError(CancellationToken token) in /Users/runner/work/1/s/xamarin-android/external/android-platform-support/src/Mono.AndroidTools/Util/AggregateAsyncResult.cs:line 72\r\n   at System.Threading.Tasks.TaskFactory\u00601.FromAsyncCoreLogic(IAsyncResult iar, Func\u00602 endFunction, Action\u00601 endAction, Task\u00601 promise, Boolean requiresSynchronization)\r\n   --- End of inner exception stack trace ---\r\n   at Mono.AndroidTools.AndroidDevice.\u003C\u003Ec__DisplayClass128_0.\u003CPush\u003Eb__0(Task t) in /Users/runner/work/1/s/xamarin-android/external/android-platform-support/src/Mono.AndroidTools/AndroidDevice.cs:line 1183\r\n   at System.Threading.Tasks.ContinuationResultTaskFromTask\u00601.InnerInvoke()\r\n   at System.Threading.Tasks.Task.Execute()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Xamarin.Android.Tasks.FastDeploy.\u003CPushStreamToDevice\u003Ed__133.MoveNext() in /Users/runner/work/1/s/xamarin-android/external/android-platform-support/src/Xamarin.Android.Build.Debugging.Tasks/Tasks/FastDeploy.cs:line 615\r\n---\u003E (Inner Exception #0) Mono.AndroidTools.AdbException: closed\r\n   at Mono.AndroidTools.Util.AggregateAsyncResult.CheckError(CancellationToken token) in /Users/runner/work/1/s/xamarin-android/external/android-platform-support/src/Mono.AndroidTools/Util/AggregateAsyncResult.cs:line 72\r\n   at System.Threading.Tasks.TaskFactory\u00601.FromAsyncCoreLogic(IAsyncResult iar, Func\u00602 endFunction, Action\u00601 endAction, Task\u00601 promise, Boolean requiresSynchronization)\u003C---\r\n",
+    "pii.deploy.file": ""
+  }
+}

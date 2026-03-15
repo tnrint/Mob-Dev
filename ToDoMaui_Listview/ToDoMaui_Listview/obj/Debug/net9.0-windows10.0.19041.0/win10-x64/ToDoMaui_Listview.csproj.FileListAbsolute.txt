@@ -514,3 +514,5 @@ D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\obj\Debug\net9.0-windows10
 D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\black.scale-100.png
+D:\MobDev\Mob-Dev\ToDoMaui_Listview\ToDoMaui_Listview\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\black.scale-100.png
