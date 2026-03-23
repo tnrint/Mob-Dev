@@ -1,3 +1,4 @@
+using System.Formats.Tar;
 using TodoApp;
 
 namespace TodoApp.Views;
@@ -18,7 +19,7 @@ public partial class AddTodoPage : ContentPage
         task.status = "pending";
 
         TodoPage.tasks.Add(task);
-
+        TodoPage.RefreshList();
         await Navigation.PopAsync();
     }
 }

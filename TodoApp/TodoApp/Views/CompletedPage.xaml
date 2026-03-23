@@ -1,16 +1,44 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="TodoApp.Views.CompletedPage">
+    x:Class="TodoApp.Views.CompletedPage"
+    Title="Completed Tasks"
+    BackgroundColor="White">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="20" Spacing="15">
 
-        <Label Text="Completed Tasks"
-               FontSize="25"
-               HorizontalOptions="Center"/>
+        <!-- Completed Task List -->
+        <ListView x:Name="completedList"
+                  BackgroundColor="LightGray"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
 
-        <ListView x:Name="completedList"/>
+                            <!-- Task Name -->
+                            <Label Text="{Binding item_name}"
+                                   FontSize="18"
+                                   VerticalOptions="Center" />
+
+                            <!-- Delete Button -->
+                            <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                                <Button Text="Delete"
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        Clicked="Delete_Clicked"
+                                        CommandParameter="{Binding .}" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
     </VerticalStackLayout>
-
+    
 </ContentPage>

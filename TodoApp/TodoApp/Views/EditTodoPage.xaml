@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TodoApp.Views.EditTodoPage"
-             Title="EditTodoPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TodoApp.Views.EditTodoPage"
+    Title="Edit Task">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Task Name -->
+        <Entry x:Name="taskName"
+               Placeholder="Task Name" />
+
+        <!-- Task Description -->
+        <Editor x:Name="taskDescription"
+                Placeholder="Task Description"
+                HeightRequest="100"/>
+
+        <!-- SAVE BUTTON -->
+        <Button Text="Save"
+                BackgroundColor="Green"
+                TextColor="White"
+                Clicked="Save_Clicked"/>
+
+        <!-- COMPLETE BUTTON -->
+        <Button Text="Mark as Completed"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="Complete_Clicked"/>
+
+        <!-- DELETE BUTTON -->
+        <Button Text="Delete Task"
+                BackgroundColor="Red"
+                TextColor="White"
+                Clicked="Delete_Clicked"/>
+
     </VerticalStackLayout>
+
 </ContentPage>

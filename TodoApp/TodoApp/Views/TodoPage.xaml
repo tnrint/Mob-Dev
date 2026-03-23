@@ -1,35 +1,67 @@
-<ContentPage
+﻿<ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="TodoApp.Views.TodoPage">
+    x:Class="TodoApp.Views.TodoPage"
+    Title="To-Do Tasks"
+    BackgroundColor="White">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="20" Spacing="15">
 
+        <!-- Add Task Button -->
         <Button Text="Add Task"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                HeightRequest="50"
+                CornerRadius="10"
                 Clicked="AddTask_Clicked"/>
 
-        <ListView x:Name="todoList">
-
+        <!-- Task List -->
+        <ListView x:Name="todoList"
+                  BackgroundColor="LightGray"
+                  HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
-
+                    
                     <ViewCell>
-                        <StackLayout Padding="10">
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
 
+                            <!-- Task Name -->
                             <Label Text="{Binding item_name}"
-                                   FontAttributes="Bold"/>
+                                   FontSize="18"
+                                   VerticalOptions="Center"/>
 
-                            <Label Text="{Binding item_description}"
-                                   FontSize="12"/>
+                            <!-- Buttons -->
+                            <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                                <Button Text="Edit"
+                                        BackgroundColor="Green"
+                                        TextColor="White"
+                                        Clicked="Edit_Clicked"
+                                        CommandParameter="{Binding .}" />
 
-                        </StackLayout>
+                                <Button Text="Delete"
+                                        BackgroundColor="Red"
+                                        TextColor="White"
+                                        Clicked="Delete_Clicked"
+                                        CommandParameter="{Binding .}" />
+
+                                <Button Text="Complete"
+                                        BackgroundColor="Blue"
+                                        TextColor="White"
+                                        Clicked="Complete_Clicked"
+                                        CommandParameter="{Binding .}" />
+                            </HorizontalStackLayout>
+                        </Grid>
                     </ViewCell>
-
+                    
                 </DataTemplate>
             </ListView.ItemTemplate>
-
+            
         </ListView>
 
     </VerticalStackLayout>
-
+    
 </ContentPage>
