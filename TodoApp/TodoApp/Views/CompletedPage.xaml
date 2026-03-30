@@ -21,9 +21,15 @@
                             </Grid.ColumnDefinitions>
 
                             <!-- Task Name -->
-                            <Label Text="{Binding item_name}"
+                            <VerticalStackLayout>
+                                <Label Text="{Binding item_name}"
                                    FontSize="18"
                                    VerticalOptions="Center" />
+                                <Label Text="{Binding item_description}"
+                                       FontSize="13"
+                                       VerticalOptions="Center"
+                                       />
+                            </VerticalStackLayout>
 
                             <!-- Delete Button -->
                             <HorizontalStackLayout Grid.Column="1" Spacing="5">
