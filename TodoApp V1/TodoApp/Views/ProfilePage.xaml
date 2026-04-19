@@ -1,0 +1,30 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TodoApp.Views.ProfilePage"
+    Title="Profile">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Profile title -->
+        <Label Text="Profile"
+               FontSize="30"
+               HorizontalOptions="Center"/>
+
+        <!-- Name Entry -->
+        <Entry x:Name="nameEntry"
+               Placeholder="Name"/>
+
+        <!-- Email Entry -->
+        <Entry x:Name="emailEntry"
+               Placeholder="Email"
+               Keyboard="Email"/>
+
+        <!-- Logout Button -->
+        <Button Text="Logout"
+                BackgroundColor="#FF5252"
+                TextColor="White"
+                Clicked="LogoutButton_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

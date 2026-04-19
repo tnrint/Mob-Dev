@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MobDev\\Mob-Dev\\TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\completedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\completedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\todopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\todopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\models\\todoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\models\\todoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\edittodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\edittodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\edittodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\edittodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\completedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\completedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\todopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\todopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\addtodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\addtodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\addtodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\addtodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\editcompletedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\editcompletedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\editcompletedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\editcompletedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\signinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\signinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\signinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\signinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|d:\\mobdev\\mob-dev\\todoapp\\todoapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AFBF0D-4DCF-401C-9BF5-3C64910D7882}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\TodoPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\TodoPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\TodoPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\TodoPage.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:53:13.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditTodoPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditTodoPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\EditTodoPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditTodoPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\EditTodoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:53:41.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditTodoPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditTodoPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\EditTodoPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditTodoPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\EditTodoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:51:55.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\TodoPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\TodoPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\TodoPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\TodoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:20:52.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompletedPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\CompletedPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\CompletedPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\CompletedPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\CompletedPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:53:52.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompletedPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\CompletedPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\CompletedPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\CompletedPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\CompletedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T07:07:21.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoClass.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Models\\ToDoClass.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Models\\ToDoClass.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Models\\ToDoClass.cs",
+              "RelativeToolTip": "TodoApp\\Models\\ToDoClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T05:51:46.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\App.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\App.xaml.cs",
+              "RelativeToolTip": "TodoApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:52:09.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddTodoPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\AddTodoPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\AddTodoPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\AddTodoPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\AddTodoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:53:27.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTodoPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\AddTodoPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\AddTodoPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\AddTodoPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\AddTodoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:23:24.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditCompletedPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditCompletedPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\EditCompletedPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditCompletedPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\EditCompletedPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:54:17.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditCompletedPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditCompletedPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\EditCompletedPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\EditCompletedPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\EditCompletedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T07:07:24.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:54:36.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:38:14.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SignInPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignInPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\SignInPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignInPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\SignInPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:52:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignInPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignInPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\SignInPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignInPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\SignInPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:15:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\SignUpPage.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignUpPage.xaml",
+              "RelativeToolTip": "TodoApp\\Views\\SignUpPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:52:56.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Views\\SignUpPage.xaml.cs",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\Views\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "TodoApp\\Views\\SignUpPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:29:42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\App.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\App.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\App.xaml",
+              "RelativeToolTip": "TodoApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T06:49:09.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\AppShell.xaml",
+              "ToolTip": "D:\\MobDev\\Mob-Dev\\TodoApp\\TodoApp\\AppShell.xaml",
+              "RelativeToolTip": "TodoApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T05:54:50.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
