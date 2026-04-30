@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Views.pages.SignInView"
+             Title="SignIn">
+    <VerticalStackLayout Padding="24" Spacing="18" VerticalOptions="Center">
+        <Label
+            Text="Welcome Back"
+            FontSize="28"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Frame HasShadow="True" CornerRadius="8" Padding="12">
+            <VerticalStackLayout Spacing="12">
+                <Entry Placeholder="Email" Text="{Binding Email}" Keyboard="Email" />
+                <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" />
+                <Button Command="{Binding SignInCommand}" Text="Sign In" BackgroundColor="#2E86AB" TextColor="White" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Button Command="{Binding NavigateToSignUpCommand}" Text="Don't have an account? Sign Up" BackgroundColor="Transparent" TextColor="#2E86AB" />
+    </VerticalStackLayout>
+</ContentPage>

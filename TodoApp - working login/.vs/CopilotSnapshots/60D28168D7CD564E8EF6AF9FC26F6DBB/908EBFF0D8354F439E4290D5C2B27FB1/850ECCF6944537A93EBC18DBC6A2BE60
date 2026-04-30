@@ -1,0 +1,50 @@
+﻿using Firebase.Auth;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+
+namespace TodoApp.pages
+{
+    public partial class SignUpViewModel : ObservableObject
+    {
+
+        private readonly FirebaseAuthClient _authClient;
+
+        [ObservableProperty]
+        private string _email;
+
+        [ObservableProperty]
+        private string _username;
+
+        [ObservableProperty]
+        private string _password;
+
+
+        public SignUpViewModel(FirebaseAuthClient authClient)
+        {
+            _authClient = authClient;
+        }
+
+        [RelayCommand]
+        private async Task SignUp()
+        {
+            // Use generated properties from [ObservableProperty]
+            await _authClient.CreateUserWithEmailAndPasswordAsync(Email, Password, Username);
+
+            await Shell.Current.GoToAsync("//SignIn");
+        }
+
+        [RelayCommand]
+        private async Task NavigateToSignIn()
+        {
+            await Shell.Current.GoToAsync("//SignIn");
+        }
+
+
+
+    }
+}
